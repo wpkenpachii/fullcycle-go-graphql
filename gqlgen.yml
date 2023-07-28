@@ -74,6 +74,12 @@ autobind:
 # modelgen, the others will be allowed when binding to fields. Configure them to
 # your liking
 models:
+  Course:
+    model:
+      - github.com/wpkenpachii/fullcycle-go-graphql/graph/model.Course
+  Category:
+    model:
+      - github.com/wpkenpachii/fullcycle-go-graphql/graph/model.Category
   ID:
     model:
       - github.com/99designs/gqlgen/graphql.ID

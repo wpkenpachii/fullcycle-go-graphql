@@ -1,0 +1,7 @@
+go mod tidy
+
+go run cmd/server/server.go
+
+# gerando novamente os arquivos gerados pelo "gqlgen"
+
+go run github.com/99designs/gqlgen generate
